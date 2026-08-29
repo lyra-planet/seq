@@ -5,7 +5,7 @@
 ## 文件
 
 - `shared_task_queue.json`：626 条任务的持久化状态。`task_order` 是 planning 文件的原始顺序，任务状态为 `pending`、`running`、`completed` 或 `failed`。
-- `seq_queue_git_sync.py`：监听队列事件；每完成一条任务，自动提交并推送队列状态。
+- `seq_queue_git_sync.py`：监听队列事件；每完成一条任务，自动提交并推送队列状态。遇到两个服务器同时推送时，会合并队列状态并重试。
 - `.gitignore`：避免把锁、事件日志和本地推理产物加入仓库。
 
 队列中的 `completed` 任务已经在现有机器生成并通过视频几何校验。另一台服务器必须直接复用这个队列，不能重新初始化或删除已完成状态。
@@ -58,7 +58,8 @@ python seq_queue_git_sync.py \
 1. 读取队列事件文件中的 `task_completed` 事件；
 2. 将最新的 `shared_task_queue.json` 提交为 `queue: complete task_<id>`；
 3. 推送到 `origin/main`；
-4. 网络暂时失败时保留本地提交，并在下一轮继续尝试推送。
+4. 网络暂时失败时保留本地提交，并在下一轮继续尝试推送；
+5. 如果远端已经有另一台服务器的提交，按任务状态合并队列，`completed` 优先保留，再重试推送。
 
 如果只需要手工同步当前状态：
 
@@ -74,7 +75,7 @@ git push origin main
 git pull --rebase origin main
 ```
 
-如果同一时间有两台服务器都向同一个远端推送，必须保证只有一个同步器写入该仓库；发生 push 冲突时先停止其中一个同步器，执行 `git pull --rebase origin main`，确认队列状态后再继续。
+如果同一时间有两台服务器都向同一个远端推送，两边各运行一个同步器即可；同步器会处理非快进推送并合并不同任务的状态。启动新 worker 前仍建议先执行 `git pull --rebase origin main`，确认 planning 文件与队列版本一致。
 
 ## 查看进度
 
@@ -103,4 +104,3 @@ PY
 shared_task_queue.json.lock
 shared_task_queue.json.events.jsonl
 ```
-
