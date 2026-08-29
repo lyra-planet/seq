@@ -80,7 +80,7 @@ class Monitor:
             if record.get("status") != "running":
                 continue
             worker_id = str(record.get("worker_id", ""))
-            if worker_id and not self.is_local_reverse_worker(worker_id):
+            if not self.is_local_reverse_worker(worker_id):
                 continue
             pid = record.get("pid")
             if not pid or not Path(f"/proc/{pid}").exists():
