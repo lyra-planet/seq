@@ -12,3 +12,4 @@ inputs/
 *.png
 *.jpg
 *.jpeg
+*.geometry.json
