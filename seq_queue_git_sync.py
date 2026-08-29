@@ -95,7 +95,9 @@ def main() -> int:
     if not args.watch:
         return 0
 
-    offset = events.stat().st_size if events.exists() else 0
+    # Start at the beginning so a completion written during the initial sync
+    # cannot be skipped by an offset initialized after that sync.
+    offset = 0
     try:
         while True:
             offset, new_events = read_events(events, offset)
