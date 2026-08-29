@@ -767,27 +767,35 @@
     },
     "114": {
       "attempts": 1,
-      "claimed_at": "2026-08-29T18:07:46.067405Z",
-      "claimed_unix": 1788026866.0673869,
+      "completed_at": "2026-08-29T18:36:46.730567Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_114/output.mp4",
       "pid": 3223587,
-      "status": "running",
+      "status": "completed",
       "worker_id": "shared_queue_20260829_gpu1"
     },
     "115": {
       "attempts": 1,
-      "claimed_at": "2026-08-29T18:11:46.174683Z",
-      "claimed_unix": 1788027106.1746469,
+      "completed_at": "2026-08-29T18:41:01.897286Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_115/output.mp4",
       "pid": 3223585,
-      "status": "running",
+      "status": "completed",
       "worker_id": "shared_queue_20260829_gpu2"
     },
     "116": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "claimed_at": "2026-08-29T18:36:46.738583Z",
+      "claimed_unix": 1788028606.7385466,
+      "pid": 3223587,
+      "status": "running",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "117": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "claimed_at": "2026-08-29T18:41:01.905433Z",
+      "claimed_unix": 1788028861.9053962,
+      "pid": 3223585,
+      "status": "running",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "118": {
       "attempts": 0,
@@ -3594,5 +3602,5 @@
       "worker_id": "shared_queue_20260829_gpu2"
     }
   },
-  "updated_at": "2026-08-29T18:47:27Z"
+  "updated_at": "2026-08-29T18:47:31Z"
 }
