@@ -26,11 +26,11 @@ cd seq
 git pull --rebase origin main
 ```
 
-如果服务器需要通过本机 Clash 代理访问 GitHub，先设置 17890 端口：
+如果服务器需要通过本机 Clash 代理访问 GitHub，先设置 7890 端口：
 
 ```bash
-git config --local http.proxy http://127.0.0.1:17890
-git config --local https.proxy http://127.0.0.1:17890
+git config --local http.proxy http://127.0.0.1:7890
+git config --local https.proxy http://127.0.0.1:7890
 ```
 
 当前源服务器的仓库已经使用上述代理；代理只影响 Git 同步，不会改变 H3 推理请求。
