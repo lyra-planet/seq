@@ -241,7 +241,8 @@ def build_prompt(video_name: str, text: str, prefix: str) -> dict[str, Any]:
         "125": {"class_type": "SamplerCustomAdvanced", "inputs": {"noise": ["129", 0], "guider": ["126", 0], "sampler": ["123", 0], "sigmas": ["124", 0], "latent_image": ["136", 1]}},
         "122": {"class_type": "VAEDecode", "inputs": {"samples": ["125", 0], "vae": ["119", 0]}},
         "130": {"class_type": "CreateVideo", "inputs": {"images": ["122", 0], "fps": float(FPS), "bit_depth": 8}},
-        "92": {"class_type": "SaveVideo", "inputs": {"video": ["130", 0], "filename_prefix": prefix, "format": "mp4", "codec": {"codec": "h264", "encoding": {"codec": "re-encode", "crf": CRF}}}},
+        # ComfyUI 0.31's dynamic combo is flattened in API prompts.
+        "92": {"class_type": "SaveVideo", "inputs": {"video": ["130", 0], "filename_prefix": prefix, "format": "mp4", "codec": "h264", "codec.encoding": "re-encode", "codec.encoding.crf": float(CRF)}},
     }
 
 
