@@ -751,19 +751,15 @@
     },
     "112": {
       "attempts": 1,
-      "claimed_at": "2026-08-29T17:38:45.340417Z",
-      "claimed_unix": 1788025125.3403804,
-      "pid": 3223587,
-      "status": "running",
-      "worker_id": "shared_queue_20260829_gpu1"
+      "last_error": "worker interrupted by server reboot; returned to reverse queue",
+      "last_failed_at": "2026-08-29T18:00:21Z",
+      "status": "pending"
     },
     "113": {
       "attempts": 1,
-      "claimed_at": "2026-08-29T17:42:30.502199Z",
-      "claimed_unix": 1788025350.5021641,
-      "pid": 3223585,
-      "status": "running",
-      "worker_id": "shared_queue_20260829_gpu2"
+      "last_error": "worker interrupted by server reboot; returned to reverse queue",
+      "last_failed_at": "2026-08-29T18:00:21Z",
+      "status": "pending"
     },
     "114": {
       "attempts": 0,
@@ -3255,11 +3251,9 @@
     },
     "625": {
       "attempts": 1,
-      "claimed_at": "2026-08-29T17:52:20Z",
-      "claimed_unix": 1788025940.9545367,
-      "pid": 100756,
-      "status": "running",
-      "worker_id": "seq_reverse_gpu0"
+      "last_error": "worker interrupted by server reboot; returned to reverse queue",
+      "last_failed_at": "2026-08-29T18:00:21Z",
+      "status": "pending"
     },
     "626": {
       "attempts": 4,
@@ -3546,5 +3540,5 @@
       "worker_id": "shared_queue_20260829_gpu2"
     }
   },
-  "updated_at": "2026-08-29T17:52:22Z"
+  "updated_at": "2026-08-29T18:00:21Z"
 }
