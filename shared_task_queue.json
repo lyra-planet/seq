@@ -3258,12 +3258,20 @@
       "status": "pending"
     },
     "625": {
-      "attempts": 0,
+      "attempts": 1,
       "status": "pending"
     },
     "626": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 4,
+      "claimed_at": "2026-08-29T17:33:34Z",
+      "claimed_unix": 1788024814.5839405,
+      "completed_at": "2026-08-29T17:52:15Z",
+      "last_error": "interrupted while replacing incompatible SaveVideo API graph",
+      "last_failed_at": "2026-08-29T17:33:34Z",
+      "output": "/root/seq_outputs/reverse_gpu0/task_626/output.mp4",
+      "pid": 100756,
+      "status": "completed",
+      "worker_id": "seq_reverse_gpu0"
     },
     "63": {
       "attempts": 0,
@@ -3538,5 +3546,5 @@
       "worker_id": "shared_queue_20260829_gpu2"
     }
   },
-  "updated_at": "2026-08-29T18:07:46.067413Z"
+  "updated_at": "2026-08-29T18:07:52Z"
 }
