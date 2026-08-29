@@ -26,6 +26,15 @@ cd seq
 git pull --rebase origin main
 ```
 
+如果服务器需要通过本机 Clash 代理访问 GitHub，先设置 17890 端口：
+
+```bash
+git config --local http.proxy http://127.0.0.1:17890
+git config --local https.proxy http://127.0.0.1:17890
+```
+
+当前源服务器的仓库已经使用上述代理；代理只影响 Git 同步，不会改变 H3 推理请求。
+
 不要运行会重新创建队列的初始化命令。使用本机已有的 worker 脚本，并把 `--queue` 指向克隆出来的 `shared_task_queue.json`。下面是单个 GPU worker 的示例，路径请按另一台服务器实际位置修改：
 
 ```bash
