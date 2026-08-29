@@ -1,0 +1,3426 @@
+{
+  "completion_roots": [
+    "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1",
+    "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2"
+  ],
+  "created_at": "2026-08-29T10:51:36.085068Z",
+  "kind": "minimax_h3_ref2va_int8_shared_fifo_queue_v1",
+  "task_count": 626,
+  "task_order": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99",
+    "100",
+    "101",
+    "102",
+    "103",
+    "104",
+    "105",
+    "106",
+    "107",
+    "108",
+    "109",
+    "110",
+    "111",
+    "112",
+    "113",
+    "114",
+    "115",
+    "116",
+    "117",
+    "118",
+    "119",
+    "120",
+    "121",
+    "122",
+    "123",
+    "124",
+    "125",
+    "126",
+    "127",
+    "128",
+    "129",
+    "130",
+    "131",
+    "132",
+    "133",
+    "134",
+    "135",
+    "136",
+    "137",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "143",
+    "144",
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153",
+    "154",
+    "155",
+    "156",
+    "157",
+    "158",
+    "159",
+    "160",
+    "161",
+    "162",
+    "163",
+    "164",
+    "165",
+    "166",
+    "167",
+    "168",
+    "169",
+    "170",
+    "171",
+    "172",
+    "173",
+    "174",
+    "175",
+    "176",
+    "177",
+    "178",
+    "179",
+    "180",
+    "181",
+    "182",
+    "183",
+    "184",
+    "185",
+    "186",
+    "187",
+    "188",
+    "189",
+    "190",
+    "191",
+    "192",
+    "193",
+    "194",
+    "195",
+    "196",
+    "197",
+    "198",
+    "199",
+    "200",
+    "201",
+    "202",
+    "203",
+    "204",
+    "205",
+    "206",
+    "207",
+    "208",
+    "209",
+    "210",
+    "211",
+    "212",
+    "213",
+    "214",
+    "215",
+    "216",
+    "217",
+    "218",
+    "219",
+    "220",
+    "221",
+    "222",
+    "223",
+    "224",
+    "225",
+    "226",
+    "227",
+    "228",
+    "229",
+    "230",
+    "231",
+    "232",
+    "233",
+    "234",
+    "235",
+    "236",
+    "237",
+    "238",
+    "239",
+    "240",
+    "241",
+    "242",
+    "243",
+    "244",
+    "245",
+    "246",
+    "247",
+    "248",
+    "249",
+    "250",
+    "251",
+    "252",
+    "253",
+    "254",
+    "255",
+    "256",
+    "257",
+    "258",
+    "259",
+    "260",
+    "261",
+    "262",
+    "263",
+    "264",
+    "265",
+    "266",
+    "267",
+    "268",
+    "269",
+    "270",
+    "271",
+    "272",
+    "273",
+    "274",
+    "275",
+    "276",
+    "277",
+    "278",
+    "279",
+    "280",
+    "281",
+    "282",
+    "283",
+    "284",
+    "285",
+    "286",
+    "287",
+    "288",
+    "289",
+    "290",
+    "291",
+    "292",
+    "293",
+    "294",
+    "295",
+    "296",
+    "297",
+    "298",
+    "299",
+    "300",
+    "301",
+    "302",
+    "303",
+    "304",
+    "305",
+    "306",
+    "307",
+    "308",
+    "309",
+    "310",
+    "311",
+    "312",
+    "313",
+    "314",
+    "315",
+    "316",
+    "317",
+    "318",
+    "319",
+    "320",
+    "321",
+    "322",
+    "323",
+    "324",
+    "325",
+    "326",
+    "327",
+    "328",
+    "329",
+    "330",
+    "331",
+    "332",
+    "333",
+    "334",
+    "335",
+    "336",
+    "337",
+    "338",
+    "339",
+    "340",
+    "341",
+    "342",
+    "343",
+    "344",
+    "345",
+    "346",
+    "347",
+    "348",
+    "349",
+    "350",
+    "351",
+    "352",
+    "353",
+    "354",
+    "355",
+    "356",
+    "357",
+    "358",
+    "359",
+    "360",
+    "361",
+    "362",
+    "363",
+    "364",
+    "365",
+    "366",
+    "367",
+    "368",
+    "369",
+    "370",
+    "371",
+    "372",
+    "373",
+    "374",
+    "375",
+    "376",
+    "377",
+    "378",
+    "379",
+    "380",
+    "381",
+    "382",
+    "383",
+    "384",
+    "385",
+    "386",
+    "387",
+    "388",
+    "389",
+    "390",
+    "391",
+    "392",
+    "393",
+    "394",
+    "395",
+    "396",
+    "397",
+    "398",
+    "399",
+    "400",
+    "401",
+    "402",
+    "403",
+    "404",
+    "405",
+    "406",
+    "407",
+    "408",
+    "409",
+    "410",
+    "411",
+    "412",
+    "413",
+    "414",
+    "415",
+    "416",
+    "417",
+    "418",
+    "419",
+    "420",
+    "421",
+    "422",
+    "423",
+    "424",
+    "425",
+    "426",
+    "427",
+    "428",
+    "429",
+    "430",
+    "431",
+    "432",
+    "433",
+    "434",
+    "435",
+    "436",
+    "437",
+    "438",
+    "439",
+    "440",
+    "441",
+    "442",
+    "443",
+    "444",
+    "445",
+    "446",
+    "447",
+    "448",
+    "449",
+    "450",
+    "451",
+    "452",
+    "453",
+    "454",
+    "455",
+    "456",
+    "457",
+    "458",
+    "459",
+    "460",
+    "461",
+    "462",
+    "463",
+    "464",
+    "465",
+    "466",
+    "467",
+    "468",
+    "469",
+    "470",
+    "471",
+    "472",
+    "473",
+    "474",
+    "475",
+    "476",
+    "477",
+    "478",
+    "479",
+    "480",
+    "481",
+    "482",
+    "483",
+    "484",
+    "485",
+    "486",
+    "487",
+    "488",
+    "489",
+    "490",
+    "491",
+    "492",
+    "493",
+    "494",
+    "495",
+    "496",
+    "497",
+    "498",
+    "499",
+    "500",
+    "501",
+    "502",
+    "503",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "509",
+    "510",
+    "511",
+    "512",
+    "513",
+    "514",
+    "515",
+    "516",
+    "517",
+    "518",
+    "519",
+    "520",
+    "521",
+    "522",
+    "523",
+    "524",
+    "525",
+    "526",
+    "527",
+    "528",
+    "529",
+    "530",
+    "531",
+    "532",
+    "533",
+    "534",
+    "535",
+    "536",
+    "537",
+    "538",
+    "539",
+    "540",
+    "541",
+    "542",
+    "543",
+    "544",
+    "545",
+    "546",
+    "547",
+    "548",
+    "549",
+    "550",
+    "551",
+    "552",
+    "553",
+    "554",
+    "555",
+    "556",
+    "557",
+    "558",
+    "559",
+    "560",
+    "561",
+    "562",
+    "563",
+    "564",
+    "565",
+    "566",
+    "567",
+    "568",
+    "569",
+    "570",
+    "571",
+    "572",
+    "573",
+    "574",
+    "575",
+    "576",
+    "577",
+    "578",
+    "579",
+    "580",
+    "581",
+    "582",
+    "583",
+    "584",
+    "585",
+    "586",
+    "587",
+    "588",
+    "589",
+    "590",
+    "591",
+    "592",
+    "593",
+    "594",
+    "595",
+    "596",
+    "597",
+    "598",
+    "599",
+    "600",
+    "601",
+    "602",
+    "603",
+    "604",
+    "605",
+    "606",
+    "607",
+    "608",
+    "609",
+    "610",
+    "611",
+    "612",
+    "613",
+    "614",
+    "615",
+    "616",
+    "617",
+    "618",
+    "619",
+    "620",
+    "621",
+    "622",
+    "623",
+    "624",
+    "625",
+    "626"
+  ],
+  "tasks": {
+    "1": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:23.566961Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_1/output.mp4",
+      "status": "completed"
+    },
+    "10": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.409671Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_10/output.mp4",
+      "status": "completed"
+    },
+    "100": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "101": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "102": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "103": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "104": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "105": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "106": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "107": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "108": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "109": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "11": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.498820Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_11/output.mp4",
+      "status": "completed"
+    },
+    "110": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "111": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "112": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "113": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "114": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "115": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "116": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "117": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "118": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "119": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "12": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.594319Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_12/output.mp4",
+      "status": "completed"
+    },
+    "120": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "121": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "122": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "123": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "124": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "125": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "126": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "127": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "128": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "129": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "13": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.690512Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_13/output.mp4",
+      "status": "completed"
+    },
+    "130": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "131": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "132": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "133": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "134": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "135": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "136": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "137": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "138": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "139": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "14": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.780815Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_14/output.mp4",
+      "status": "completed"
+    },
+    "140": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "141": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "142": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "143": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "144": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "145": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "146": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "147": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "148": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "149": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "15": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.874722Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_15/output.mp4",
+      "status": "completed"
+    },
+    "150": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "151": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "152": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "153": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "154": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "155": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "156": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "157": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "158": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "159": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "16": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.970262Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_16/output.mp4",
+      "status": "completed"
+    },
+    "160": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "161": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "162": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "163": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "164": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "165": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "166": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "167": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "168": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "169": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "17": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.060572Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_17/output.mp4",
+      "status": "completed"
+    },
+    "170": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "171": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "172": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "173": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "174": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "175": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "176": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "177": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "178": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "179": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "18": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.155285Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_18/output.mp4",
+      "status": "completed"
+    },
+    "180": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "181": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "182": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "183": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "184": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "185": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "186": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "187": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "188": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "189": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "19": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.245659Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_19/output.mp4",
+      "status": "completed"
+    },
+    "190": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "191": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "192": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "193": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "194": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "195": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "196": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "197": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "198": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "199": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "2": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:23.654286Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_2/output.mp4",
+      "status": "completed"
+    },
+    "20": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.332092Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_20/output.mp4",
+      "status": "completed"
+    },
+    "200": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "201": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "202": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "203": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "204": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "205": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "206": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "207": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "208": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "209": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "21": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.424680Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_21/output.mp4",
+      "status": "completed"
+    },
+    "210": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "211": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "212": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "213": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "214": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "215": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "216": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "217": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "218": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "219": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "22": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.517168Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_22/output.mp4",
+      "status": "completed"
+    },
+    "220": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "221": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "222": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "223": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "224": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "225": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "226": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "227": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "228": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "229": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "23": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.614633Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_23/output.mp4",
+      "status": "completed"
+    },
+    "230": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "231": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "232": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "233": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "234": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "235": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "236": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "237": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "238": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "239": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "24": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.697538Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_24/output.mp4",
+      "status": "completed"
+    },
+    "240": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "241": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "242": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "243": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "244": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "245": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "246": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "247": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "248": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "249": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "25": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.798669Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_25/output.mp4",
+      "status": "completed"
+    },
+    "250": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "251": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "252": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "253": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "254": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "255": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "256": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "257": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "258": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "259": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "26": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.891152Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_26/output.mp4",
+      "status": "completed"
+    },
+    "260": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "261": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "262": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "263": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "264": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "265": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "266": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "267": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "268": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "269": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "27": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:25.986339Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_27/output.mp4",
+      "status": "completed"
+    },
+    "270": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "271": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "272": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "273": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "274": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "275": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "276": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "277": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "278": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "279": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "28": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.086147Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_28/output.mp4",
+      "status": "completed"
+    },
+    "280": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "281": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "282": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "283": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "284": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "285": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "286": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "287": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "288": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "289": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "29": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.178467Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_29/output.mp4",
+      "status": "completed"
+    },
+    "290": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "291": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "292": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "293": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "294": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "295": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "296": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "297": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "298": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "299": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "3": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:23.743656Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_3/output.mp4",
+      "status": "completed"
+    },
+    "30": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.273630Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_30/output.mp4",
+      "status": "completed"
+    },
+    "300": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "301": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "302": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "303": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "304": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "305": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "306": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "307": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "308": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "309": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "31": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.371822Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_31/output.mp4",
+      "status": "completed"
+    },
+    "310": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "311": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "312": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "313": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "314": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.315542Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_314/output.mp4",
+      "status": "completed"
+    },
+    "315": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.403827Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_315/output.mp4",
+      "status": "completed"
+    },
+    "316": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.490707Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_316/output.mp4",
+      "status": "completed"
+    },
+    "317": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.578484Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_317/output.mp4",
+      "status": "completed"
+    },
+    "318": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.675150Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_318/output.mp4",
+      "status": "completed"
+    },
+    "319": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.762623Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_319/output.mp4",
+      "status": "completed"
+    },
+    "32": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.459120Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_32/output.mp4",
+      "status": "completed"
+    },
+    "320": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.849995Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_320/output.mp4",
+      "status": "completed"
+    },
+    "321": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.949889Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_321/output.mp4",
+      "status": "completed"
+    },
+    "322": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.043941Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_322/output.mp4",
+      "status": "completed"
+    },
+    "323": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.138594Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_323/output.mp4",
+      "status": "completed"
+    },
+    "324": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.223839Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_324/output.mp4",
+      "status": "completed"
+    },
+    "325": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.313069Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_325/output.mp4",
+      "status": "completed"
+    },
+    "326": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.399604Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_326/output.mp4",
+      "status": "completed"
+    },
+    "327": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.492411Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_327/output.mp4",
+      "status": "completed"
+    },
+    "328": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.582714Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_328/output.mp4",
+      "status": "completed"
+    },
+    "329": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.670484Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_329/output.mp4",
+      "status": "completed"
+    },
+    "33": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.551386Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_33/output.mp4",
+      "status": "completed"
+    },
+    "330": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.765762Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_330/output.mp4",
+      "status": "completed"
+    },
+    "331": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.859878Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_331/output.mp4",
+      "status": "completed"
+    },
+    "332": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:32.946063Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_332/output.mp4",
+      "status": "completed"
+    },
+    "333": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.035926Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_333/output.mp4",
+      "status": "completed"
+    },
+    "334": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.122912Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_334/output.mp4",
+      "status": "completed"
+    },
+    "335": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.213415Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_335/output.mp4",
+      "status": "completed"
+    },
+    "336": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.302162Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_336/output.mp4",
+      "status": "completed"
+    },
+    "337": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.390083Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_337/output.mp4",
+      "status": "completed"
+    },
+    "338": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.485483Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_338/output.mp4",
+      "status": "completed"
+    },
+    "339": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.574389Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_339/output.mp4",
+      "status": "completed"
+    },
+    "34": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.642896Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_34/output.mp4",
+      "status": "completed"
+    },
+    "340": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.664325Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_340/output.mp4",
+      "status": "completed"
+    },
+    "341": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.758943Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_341/output.mp4",
+      "status": "completed"
+    },
+    "342": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.851029Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_342/output.mp4",
+      "status": "completed"
+    },
+    "343": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:33.940736Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_343/output.mp4",
+      "status": "completed"
+    },
+    "344": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.031501Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_344/output.mp4",
+      "status": "completed"
+    },
+    "345": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.119362Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_345/output.mp4",
+      "status": "completed"
+    },
+    "346": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.211350Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_346/output.mp4",
+      "status": "completed"
+    },
+    "347": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.301287Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_347/output.mp4",
+      "status": "completed"
+    },
+    "348": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.391426Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_348/output.mp4",
+      "status": "completed"
+    },
+    "349": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.481023Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_349/output.mp4",
+      "status": "completed"
+    },
+    "35": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.734918Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_35/output.mp4",
+      "status": "completed"
+    },
+    "350": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.569517Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_350/output.mp4",
+      "status": "completed"
+    },
+    "351": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.655491Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_351/output.mp4",
+      "status": "completed"
+    },
+    "352": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.741934Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_352/output.mp4",
+      "status": "completed"
+    },
+    "353": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.832037Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_353/output.mp4",
+      "status": "completed"
+    },
+    "354": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:34.919981Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_354/output.mp4",
+      "status": "completed"
+    },
+    "355": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.012477Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_355/output.mp4",
+      "status": "completed"
+    },
+    "356": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.099804Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_356/output.mp4",
+      "status": "completed"
+    },
+    "357": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.187435Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_357/output.mp4",
+      "status": "completed"
+    },
+    "358": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.277553Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_358/output.mp4",
+      "status": "completed"
+    },
+    "359": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.365384Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_359/output.mp4",
+      "status": "completed"
+    },
+    "36": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.828176Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_36/output.mp4",
+      "status": "completed"
+    },
+    "360": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.455015Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_360/output.mp4",
+      "status": "completed"
+    },
+    "361": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.540571Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_361/output.mp4",
+      "status": "completed"
+    },
+    "362": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.627813Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_362/output.mp4",
+      "status": "completed"
+    },
+    "363": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.714263Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_363/output.mp4",
+      "status": "completed"
+    },
+    "364": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.803325Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_364/output.mp4",
+      "status": "completed"
+    },
+    "365": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.892551Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_365/output.mp4",
+      "status": "completed"
+    },
+    "366": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:35.982519Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_366/output.mp4",
+      "status": "completed"
+    },
+    "367": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:36.070386Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_367/output.mp4",
+      "status": "completed"
+    },
+    "368": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "369": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "37": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:26.917996Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_37/output.mp4",
+      "status": "completed"
+    },
+    "370": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "371": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "372": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "373": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "374": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "375": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "376": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "377": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "378": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "379": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "38": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.008376Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_38/output.mp4",
+      "status": "completed"
+    },
+    "380": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "381": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "382": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "383": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "384": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "385": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "386": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "387": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "388": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "389": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "39": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.100126Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_39/output.mp4",
+      "status": "completed"
+    },
+    "390": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "391": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "392": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "393": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "394": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "395": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "396": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "397": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "398": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "399": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "4": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:23.837295Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_4/output.mp4",
+      "status": "completed"
+    },
+    "40": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.188744Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_40/output.mp4",
+      "status": "completed"
+    },
+    "400": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "401": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "402": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "403": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "404": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "405": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "406": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "407": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "408": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "409": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "41": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.281803Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_41/output.mp4",
+      "status": "completed"
+    },
+    "410": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "411": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "412": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "413": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "414": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "415": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "416": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "417": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "418": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "419": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "42": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.375643Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_42/output.mp4",
+      "status": "completed"
+    },
+    "420": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "421": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "422": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "423": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "424": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "425": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "426": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "427": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "428": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "429": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "43": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.468431Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_43/output.mp4",
+      "status": "completed"
+    },
+    "430": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "431": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "432": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "433": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "434": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "435": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "436": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "437": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "438": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "439": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "44": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.568525Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_44/output.mp4",
+      "status": "completed"
+    },
+    "440": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "441": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "442": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "443": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "444": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "445": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "446": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "447": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "448": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "449": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "45": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.659470Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_45/output.mp4",
+      "status": "completed"
+    },
+    "450": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "451": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "452": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "453": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "454": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "455": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "456": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "457": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "458": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "459": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "46": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.750827Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_46/output.mp4",
+      "status": "completed"
+    },
+    "460": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "461": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "462": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "463": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "464": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "465": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "466": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "467": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "468": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "469": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "47": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.841758Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_47/output.mp4",
+      "status": "completed"
+    },
+    "470": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "471": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "472": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "473": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "474": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "475": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "476": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "477": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "478": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "479": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "48": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:27.927388Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_48/output.mp4",
+      "status": "completed"
+    },
+    "480": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "481": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "482": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "483": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "484": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "485": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "486": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "487": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "488": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "489": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "49": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.024087Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_49/output.mp4",
+      "status": "completed"
+    },
+    "490": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "491": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "492": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "493": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "494": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "495": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "496": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "497": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "498": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "499": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "5": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:23.928121Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_5/output.mp4",
+      "status": "completed"
+    },
+    "50": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.114968Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_50/output.mp4",
+      "status": "completed"
+    },
+    "500": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "501": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "502": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "503": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "504": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "505": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "506": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "507": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "508": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "509": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "51": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.212084Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_51/output.mp4",
+      "status": "completed"
+    },
+    "510": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "511": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "512": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "513": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "514": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "515": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "516": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "517": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "518": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "519": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "52": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.306238Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_52/output.mp4",
+      "status": "completed"
+    },
+    "520": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "521": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "522": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "523": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "524": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "525": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "526": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "527": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "528": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "529": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "53": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.397665Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_53/output.mp4",
+      "status": "completed"
+    },
+    "530": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "531": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "532": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "533": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "534": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "535": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "536": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "537": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "538": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "539": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "54": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.491512Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_54/output.mp4",
+      "status": "completed"
+    },
+    "540": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "541": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "542": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "543": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "544": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "545": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "546": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "547": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "548": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "549": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "55": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.587685Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_55/output.mp4",
+      "status": "completed"
+    },
+    "550": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "551": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "552": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "553": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "554": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "555": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "556": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "557": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "558": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "559": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "56": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.691169Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_56/output.mp4",
+      "status": "completed"
+    },
+    "560": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "561": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "562": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "563": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "564": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "565": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "566": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "567": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "568": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "569": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "57": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.796782Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_57/output.mp4",
+      "status": "completed"
+    },
+    "570": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "571": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "572": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "573": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "574": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "575": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "576": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "577": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "578": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "579": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "58": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.884706Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_58/output.mp4",
+      "status": "completed"
+    },
+    "580": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "581": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "582": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "583": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "584": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "585": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "586": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "587": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "588": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "589": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "59": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:28.993830Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_59/output.mp4",
+      "status": "completed"
+    },
+    "590": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "591": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "592": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "593": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "594": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "595": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "596": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "597": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "598": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "599": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "6": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.019879Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_6/output.mp4",
+      "status": "completed"
+    },
+    "60": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.096075Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_60/output.mp4",
+      "status": "completed"
+    },
+    "600": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "601": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "602": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "603": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "604": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "605": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "606": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "607": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "608": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "609": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "61": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.198441Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_61/output.mp4",
+      "status": "completed"
+    },
+    "610": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "611": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "612": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "613": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "614": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "615": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "616": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "617": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "618": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "619": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "62": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.289821Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_62/output.mp4",
+      "status": "completed"
+    },
+    "620": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "621": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "622": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "623": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "624": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "625": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "626": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "63": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.391100Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_63/output.mp4",
+      "status": "completed"
+    },
+    "64": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.483372Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_64/output.mp4",
+      "status": "completed"
+    },
+    "65": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.572720Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_65/output.mp4",
+      "status": "completed"
+    },
+    "66": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.662573Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_66/output.mp4",
+      "status": "completed"
+    },
+    "67": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.769263Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_67/output.mp4",
+      "status": "completed"
+    },
+    "68": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.861017Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_68/output.mp4",
+      "status": "completed"
+    },
+    "69": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:29.957968Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_69/output.mp4",
+      "status": "completed"
+    },
+    "7": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.114770Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_7/output.mp4",
+      "status": "completed"
+    },
+    "70": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.051495Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_70/output.mp4",
+      "status": "completed"
+    },
+    "71": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.140794Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_71/output.mp4",
+      "status": "completed"
+    },
+    "72": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.242082Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_72/output.mp4",
+      "status": "completed"
+    },
+    "73": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.330484Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_73/output.mp4",
+      "status": "completed"
+    },
+    "74": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.421354Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_74/output.mp4",
+      "status": "completed"
+    },
+    "75": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.513368Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_75/output.mp4",
+      "status": "completed"
+    },
+    "76": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.602739Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_76/output.mp4",
+      "status": "completed"
+    },
+    "77": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.695060Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_77/output.mp4",
+      "status": "completed"
+    },
+    "78": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.783437Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_78/output.mp4",
+      "status": "completed"
+    },
+    "79": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.871165Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_79/output.mp4",
+      "status": "completed"
+    },
+    "8": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.204479Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_8/output.mp4",
+      "status": "completed"
+    },
+    "80": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:30.961007Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_80/output.mp4",
+      "status": "completed"
+    },
+    "81": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.049977Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_81/output.mp4",
+      "status": "completed"
+    },
+    "82": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.135237Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_82/output.mp4",
+      "status": "completed"
+    },
+    "83": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:31.222499Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_83/output.mp4",
+      "status": "completed"
+    },
+    "84": {
+      "attempts": 1,
+      "claimed_at": "2026-08-29T10:51:36.101208Z",
+      "claimed_unix": 1788000696.1011817,
+      "pid": 3223587,
+      "status": "running",
+      "worker_id": "shared_queue_20260829_gpu1"
+    },
+    "85": {
+      "attempts": 1,
+      "claimed_at": "2026-08-29T10:51:36.141919Z",
+      "claimed_unix": 1788000696.141872,
+      "pid": 3223585,
+      "status": "running",
+      "worker_id": "shared_queue_20260829_gpu2"
+    },
+    "86": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "87": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "88": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "89": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "9": {
+      "attempts": 0,
+      "completed_at": "2026-08-29T10:51:24.306334Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_9/output.mp4",
+      "status": "completed"
+    },
+    "90": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "91": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "92": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "93": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "94": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "95": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "96": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "97": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "98": {
+      "attempts": 0,
+      "status": "pending"
+    },
+    "99": {
+      "attempts": 0,
+      "status": "pending"
+    }
+  },
+  "updated_at": "2026-08-29T10:51:36.141949Z"
+}

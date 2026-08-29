@@ -1,0 +1,14 @@
+*.lock
+*.events.jsonl
+.seq_git_sync_state.json
+.seq_git_sync.lock
+__pycache__/
+gpu*/
+logs/
+comfy_output/
+comfy_user/
+inputs/
+*.mp4
+*.png
+*.jpg
+*.jpeg
