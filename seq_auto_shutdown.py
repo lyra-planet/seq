@@ -51,6 +51,9 @@ class Monitor:
             self.write(f"shutdown command failed: {error!r}")
         raise SystemExit(0)
 
+    def is_local_reverse_worker(self, worker_id: str) -> bool:
+        return any(worker_id.startswith(prefix) for prefix in self.args.reverse_worker_prefix)
+
     def queue_state(self) -> dict:
         try:
             return json.loads(self.args.queue.read_text(encoding="utf-8"))
@@ -66,9 +69,7 @@ class Monitor:
         self.write(f"queue completed={completed} running={running} pending={pending}")
         stop_record = tasks.get(str(self.args.stop_task), {})
         stop_worker = str(stop_record.get("worker_id", ""))
-        if (stop_record.get("status") == "completed"
-                and any(stop_worker.startswith(prefix)
-                        for prefix in self.args.reverse_worker_prefix)):
+        if stop_record.get("status") == "completed" and self.is_local_reverse_worker(stop_worker):
             self.request_shutdown(
                 f"local reverse queue completed stop task {self.args.stop_task} ({stop_worker})"
             )
@@ -76,6 +77,9 @@ class Monitor:
             self.request_shutdown("all queue tasks completed")
         for task_id, record in tasks.items():
             if record.get("status") != "running":
+                continue
+            worker_id = str(record.get("worker_id", ""))
+            if worker_id and not self.is_local_reverse_worker(worker_id):
                 continue
             pid = record.get("pid")
             if not pid or not Path(f"/proc/{pid}").exists():
