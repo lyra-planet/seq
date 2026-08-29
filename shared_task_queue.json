@@ -3228,8 +3228,12 @@
       "status": "pending"
     },
     "616": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "claimed_at": "2026-08-29T18:51:00Z",
+      "claimed_unix": 1788029460.9813924,
+      "pid": 29228,
+      "status": "running",
+      "worker_id": "seq_reverse_gpu2"
     },
     "617": {
       "attempts": 1,
@@ -3251,8 +3255,10 @@
       "attempts": 1,
       "claimed_at": "2026-08-29T18:35:12Z",
       "claimed_unix": 1788028512.083491,
+      "completed_at": "2026-08-29T18:51:06Z",
+      "output": "/root/seq_outputs/reverse_gpu1/task_619/output.mp4",
       "pid": 29237,
-      "status": "running",
+      "status": "completed",
       "worker_id": "seq_reverse_gpu1"
     },
     "62": {
@@ -3614,5 +3620,5 @@
       "worker_id": "shared_queue_20260829_gpu2"
     }
   },
-  "updated_at": "2026-08-29T18:50:55Z"
+  "updated_at": "2026-08-29T18:51:06Z"
 }
