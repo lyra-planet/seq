@@ -42,9 +42,10 @@ class Monitor:
             return
         self.shutdown_requested = True
         self.write(f"shutdown condition met: {reason}")
-        self.write("executing /usr/bin/shutdown -h now")
+        self.write("executing /bin/bash /usr/bin/shutdown -h now")
         try:
-            result = subprocess.run(["/usr/bin/shutdown", "-h", "now"], check=False, text=True,
+            # AutoDL exposes shutdown as a shell wrapper without a shebang.
+            result = subprocess.run(["/bin/bash", "/usr/bin/shutdown", "-h", "now"], check=False, text=True,
                                     stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             self.write(f"shutdown command exited with code {result.returncode}: {result.stdout.strip()}")
         except Exception as error:
