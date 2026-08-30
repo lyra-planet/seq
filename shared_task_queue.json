@@ -1237,10 +1237,10 @@
     },
     "169": {
       "attempts": 1,
-      "claimed_at": "2026-08-30T07:21:51.253508Z",
-      "claimed_unix": 1788074511.253453,
+      "completed_at": "2026-08-30T07:51:06.973666Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_169/output.mp4",
       "pid": 3223585,
-      "status": "running",
+      "status": "completed",
       "worker_id": "shared_queue_20260829_gpu2"
     },
     "17": {
@@ -1251,47 +1251,83 @@
     },
     "170": {
       "attempts": 1,
-      "claimed_at": "2026-08-30T07:40:06.479809Z",
-      "claimed_unix": 1788075606.4797812,
+      "completed_at": "2026-08-30T08:09:07.114815Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_170/output.mp4",
       "pid": 3223587,
-      "status": "running",
+      "status": "completed",
       "worker_id": "shared_queue_20260829_gpu1"
     },
     "171": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T08:20:22.694542Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_171/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "172": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T08:38:07.770579Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_172/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "173": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T08:49:38.391695Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_173/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "174": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T09:07:08.402016Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_174/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "175": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T09:18:54.053543Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_175/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "176": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T09:36:09.053680Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_176/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "177": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T09:48:09.705279Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_177/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "178": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T10:05:09.751942Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_178/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "179": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T10:17:25.361384Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_179/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "18": {
       "attempts": 0,
@@ -1300,44 +1336,84 @@
       "status": "completed"
     },
     "180": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T10:34:10.421796Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_180/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "181": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T10:46:41.077700Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_181/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "182": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T11:03:11.150767Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_182/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "183": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T11:15:56.807525Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_183/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "184": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T11:32:11.855840Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_184/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "185": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T11:45:12.485868Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_185/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "186": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T12:01:12.554526Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_186/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "187": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T12:14:28.158988Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_187/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "188": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T12:30:13.267008Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_188/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "189": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T12:43:43.873596Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_189/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "19": {
       "attempts": 0,
@@ -1346,44 +1422,84 @@
       "status": "completed"
     },
     "190": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T12:59:13.946771Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_190/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "191": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T13:12:59.579418Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_191/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "192": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T13:28:14.588726Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_192/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "193": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T13:42:15.291920Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_193/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "194": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T13:57:00.641806Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_194/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "195": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T14:11:31.015145Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_195/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "196": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T14:25:46.399605Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_196/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "197": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T14:40:46.685601Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu2/single_complex_prompt/task_197/output.mp4",
+      "pid": 3223585,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "198": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "completed_at": "2026-08-30T14:54:47.122612Z",
+      "output": "/mnt/sda/cunjianchen/kai/Aurora_Original_CoVEBench/aurora_msr_control/runs/minimax_h3_single_complex_full626_preprocessed_20260828/gpu1/single_complex_prompt/task_198/output.mp4",
+      "pid": 3223587,
+      "status": "completed",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "199": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "claimed_at": "2026-08-30T14:40:46.698659Z",
+      "claimed_unix": 1788100846.6985874,
+      "pid": 3223585,
+      "status": "running",
+      "worker_id": "shared_queue_20260829_gpu2"
     },
     "2": {
       "attempts": 0,
@@ -1398,8 +1514,12 @@
       "status": "completed"
     },
     "200": {
-      "attempts": 0,
-      "status": "pending"
+      "attempts": 1,
+      "claimed_at": "2026-08-30T14:54:47.137845Z",
+      "claimed_unix": 1788101687.1377823,
+      "pid": 3223587,
+      "status": "running",
+      "worker_id": "shared_queue_20260829_gpu1"
     },
     "201": {
       "attempts": 0,
@@ -3832,5 +3952,5 @@
       "worker_id": "shared_queue_20260829_gpu2"
     }
   },
-  "updated_at": "2026-08-30T07:40:06.479817Z"
+  "updated_at": "2026-08-30T14:54:47.137861Z"
 }
